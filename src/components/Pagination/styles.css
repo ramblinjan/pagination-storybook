@@ -1,0 +1,16 @@
+.pagination button {
+  background: none;
+  cursor: pointer;
+  border: 1px solid lightblue;
+  padding: 5px 10px;
+  color: blue;
+}
+
+.pagination button[disabled] {
+  color: grey;
+  cursor: default;
+}
+
+.pagination button.is-active {
+  background-color: lightblue;
+}
